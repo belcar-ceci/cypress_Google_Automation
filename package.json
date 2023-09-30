@@ -1,0 +1,21 @@
+{
+  "name": "cypressprueba",
+  "version": "1.0.0",
+  "description": "e2e Testing Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:test": "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "e2e",
+    "testing",
+    "cypress"
+  ],
+  "author": "carbel",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  }
+}
